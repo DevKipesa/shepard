@@ -7,15 +7,15 @@ const HomePage = () => {
   return (
     <div className="homepage">
         <h2 className='shep'>SHEPARD</h2>
-      <header className="header">
+      <div className="header">
         <h1 className='sky'>Heading Beyond the Sky</h1>
         <img
           src="/yup.png"
           alt="Header"
-          className="header-image"
+          className="yup"
         />
         <div className="confetti"></div>
-      </header>
+      </div>
       <div className='buy'>
       <button className='btn' >Buy Now</button>
       </div>
